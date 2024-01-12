@@ -1,0 +1,26 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-size: 1em;
+    font-family: Arial, sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    background-color: #ffffff;
+    max-width: 1400px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.main_content_link  {
+    color: #007bff;
+}
+
+.main_content_link:hover {
+    color:#5a11a5;
+    text-shadow: 3px 4px 8px #5a11a5;
+}

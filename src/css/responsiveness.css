@@ -1,0 +1,325 @@
+/* RESPONSIVIDADE 1024px */
+
+@media screen and (max-width: 1024px) {
+    .main_cta_content_description {
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+
+    .main_cta img,
+    .main_driveon_img img {
+        max-width: 100%;
+    }
+
+    .main_information article {
+        flex-basis: 50%;
+    }
+
+    .main_information article img {
+        max-width: 200px;
+    }
+
+    .main_driveon_content,
+    .main_driveon_img {
+        flex-basis: 80%;
+    }
+
+    .main_driveon_content p {
+        font-size: 1.5em;
+    }
+
+    .main_security_content,
+    .main_security_img {
+        flex-basis: 100%;
+        margin-left: 0;
+    }
+
+    .main_security {
+        flex-direction: column-reverse;
+    }
+
+    .main_security_content {
+        margin: 0 auto;
+        text-align: center;
+        max-width: 80%;
+    }
+
+    .main_security_content h1 {
+        font-size: 1.5em;
+    }
+
+    .main_security_content p {
+        font-size: 1.5em;
+    }
+
+    .main_security_img {
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: end;
+        margin: 20px;
+    }
+
+    .main_security_img img {
+        width: 60%;
+    }
+
+    .main_app_download_content {
+        flex-basis: 100%;
+        margin-left: 0;
+    }
+
+    .main_option article {
+        flex-direction: column;
+    }
+
+    .main_footer_content_left,
+    .main_footer_content_right {
+        width: 100%;
+    }
+
+    .main_footer_content_social_icons {
+        width: 100%;
+        justify-content: center;
+    }
+}
+
+/* RESPONSIVIDADE 900px */
+
+@media screen and (max-width: 900px) {
+
+    .main_cta_content_description header h1 {
+        font-weight: 600;
+        font-size: 2.2em;
+        color: #5a11a5;
+    }
+
+    .main_cta_content_description p {
+        font-size: 1em;
+        margin: 30px 0;
+    }
+
+
+    /* Ajustes no conteúdo da seção Information */
+
+    .main_information .main_information_header h1 {
+        font-size: 1.8em;
+    }
+
+    .main_information article {
+        flex-basis: calc(50% - 20px);
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+    .main_information article img {
+        width: 80%;
+    }
+
+    .main_information article h2 {
+        font-size: 1.5em;
+    }
+
+    .main_information article p {
+        font-size: 1em;
+    }
+
+    .main_information article .category {
+        font-size: 0.875em;
+        color: #D36833;
+    }
+
+    /* Ajustes no conteúdo da seção DriveOn */
+
+    .main_driveon {
+        flex-direction: column;
+    }
+
+    .main_driveon_img img {
+        max-width: 60%;
+    }
+
+    .main_driveon_content {
+        width: 80%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .main_driveon_content p {
+        font-size: 1.2em;
+    }
+
+    .main_driveon_content_info {
+        margin-top: 20px;
+        margin-bottom: 50px;
+    }
+
+    .main_driveon_content_link {
+        font-size: 1.2em;
+    }
+
+    /* Ajustes no conteúdo da seção Security */
+
+    .main_security {
+        flex-direction: column-reverse;
+    }
+
+    .main_security_content {
+        margin: 0 auto;
+        text-align: center;
+        max-width: 80%;
+    }
+
+    .main_security_content h2 {
+        font-size: 1.5em;
+    }
+
+    .main_security_content p {
+        font-size: 1em;
+    }
+
+    .main_security > img {
+       width: 100%;
+       margin: 50px 0;
+       margin-left: auto;
+    }
+
+
+    /* Ajustes no conteúdo da seção Download */
+
+    .main_app_download {
+        padding: 50px;
+        margin: 50px 0;
+    }
+
+    .main_app_download_content {
+        max-width: 100%;
+        align-items: end;
+        text-align: end;
+        margin-top: 50px;
+    }
+
+    .main_app_download_content>img {
+        display: none;
+    }
+
+    .main_app_download_content p {
+        font-size: 0.8em;
+        width: 50%;
+    }
+
+    .main_app_download_content_buttons_download img {
+        width: 25%;
+    }
+
+    .main_app_download_content_buttons {
+        flex-direction: column;
+    }
+
+    .main_app_download_content_buttons_download {
+        margin: 5px 0;
+    }
+
+    /* Ajustes no conteúdo da seção Option */
+
+    .main_option {
+        align-items: center;
+        margin: 40px auto;
+
+    }
+
+    .main_option article {
+        width: 50%;
+        margin-bottom: 20px;
+        padding: 40px 20px;
+    }
+
+    .main_option article header h1 {
+        font-size: 1.1em;
+    }
+
+    .main_option header img {
+        width: 20%;
+    }
+
+    .main_footer_content {
+        width: 90%;
+    }
+
+    .main_footer_content_left,
+    .main_footer_content_right {
+        width: 100%;
+    }
+
+    .main_footer_content_right > article {
+        margin-left: 0;
+    }
+
+    .main_footer_content_right > article h2 {
+        font-size: 1.4em;
+    }
+    
+    .main_footer_content_social hr {
+        width: 100%;
+    }
+
+    .main_footer_content_social_icons {
+        width: 100%;
+        padding-bottom: 10px;
+    }
+
+    .social_icons {
+        margin-left: 20px;
+    }
+}
+
+/* RESPONSIVIDADE 800px */
+
+@media screen and (max-width: 800px) {
+
+    /* Menu responsivo */
+
+    .main_header_content img  {
+       margin-left: 20px;
+    }
+    .menu_toggle {
+        display: block;
+        margin-left: auto;
+        margin-right: 20px;
+    }
+
+    .main_header_content_menu ul,
+    .main_header_content_menu_right {
+        display: none;
+    }
+
+    .main_header_mobile_menu.show {
+        display: flex;
+    }
+}
+
+/* RESPONSIVIDADE 600px */
+
+@media screen and (max-width: 600px) {
+
+    .main_cta {
+       display: flex;
+       flex-direction: column;
+    }
+
+    .main_cta_content_description_img {
+        width: 50%;
+        margin-left: auto;
+    }
+   
+
+    .main_information article {
+        flex-basis: 100%;
+    }
+
+    .main_option article header h2 {
+        font-size: 1.2em;
+    }
+}
